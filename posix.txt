@@ -1,0 +1,33 @@
+           Official NIST-PCTS:151-2, October 1, 1995
+
+The NIST-PCTS:151-2 is a POSIX conformance test suite (PCTS) written by
+the National Institute of Standards and Technology.
+It tests system implementations for conformance to FIPS 151-2.
+FIPS 151-2 is based on the ISO/IEC 9945-1:1990 Portable Operating System
+Interface (POSIX)--
+Part 1:System Application Program Interface (API) [C Language]
+and the additional requirements as restated in Appendix A of the
+NIST-PCTS:151-2 Installation and Testing Guide.
+The assertions tested by this PCTS are only those of the
+IEEE Std 2003.1-1992 Test Methods for Measuring Conformance to POSIX.1
+that relate to FIPS 151-2.
+
+This distribution is fully contained within the compressed cpio archived
+file NP_distr.Z.exe.
+
+The documentation for the NIST-PCTS:151-2 is written in "troff" and
+incorporates the "mm" macros.
+The files ITG.ps and CVR.ps contain the postscript files for
+the documents NIST-PCTS:151-2--Installation and Testing Guide and
+NIST POSIX Testing Policy--Certificate of Validation Requirements
+for FIPS 151-2 respectively.  These files are provided for those
+that may not have the resources to generate the printable documents
+from the distribution.
+
+To install the Official NIST-PCTS:151-2:
+  mv NP_distr.Z.exe NP_distr.Z
+  uncompress NP_distr.Z
+  cpio -icBdmuv < NP_distr
+  See procedures in "Installation and Testing Guide"
+
+Support is no longer provided for this product.
